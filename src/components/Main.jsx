@@ -34,6 +34,8 @@ function Main() {
                 2000,
                 "Tech Enthusiast",
                 1000,
+                "Data Analyst",
+                2000,
               ]}
               wrapper="span"
               speed={50}
@@ -49,7 +51,7 @@ function Main() {
           </div>
           <a
             className="btn content-download button-main button-scheme"
-            href="Nicolas Vargas Resume InceptionU.docx August 1st.pdf"
+            href="Nicolas Vargas Talentify.pdf"
             download="Nicolas Vargas Resume InceptionU.docx August 1st.pdf"
           >
             Download CV 

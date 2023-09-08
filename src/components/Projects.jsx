@@ -2,6 +2,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import newstriveoppImg from "../assets/newstriveopp.jpg";
 import parknbikeImg from "../assets/parknbike.jpg";
+import bikesalesImg from "../assets/bikesales.jpg";
 
 const Projects = () => {
   return (
@@ -21,6 +22,7 @@ const Projects = () => {
       <div className="grid sm:grid-cols-2 gap-12">
         <ProjectItem img={newstriveoppImg} title="StriveOpp App" />
         <ProjectItem img={parknbikeImg} title="Park n Bike App" />
+        <ProjectItem img={bikesalesImg} title="Bike Sales Dashboard" />
       </div>
     </div>
   );
