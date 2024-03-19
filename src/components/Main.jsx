@@ -1,27 +1,14 @@
 import React from "react";
 import { TypeAnimation } from "react-type-animation";
-import {
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
-  FaGithubAlt,
-} from "react-icons/fa";
-
-
 
 function Main() {
   return (
     <div id="main">
-      <img
-        className="w-full h-screen object-cover object-left scale-x-[-1]"
-        src="https://media.discordapp.net/attachments/1093339975724044403/1096862457760321736/iStock-1350271924.jpg?width=993&height=662"
-      />
+      <img className="w-full h-screen object-cover object-left scale-x-[-1]" src="./skyline.jpg" />
       <div className="w-full h-screen absolute top-0 left-0 bg-white/50">
         <div className="max-w-[700px] m-auto h-full flex flex-col justify-center lg:items-start items-center">
-          <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">
-            I'm Nicolas Vargas
-          </h1>
-          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800">
+          <h1 className="sm:text-5xl text-4xl font-bold text-gray-800">I'm Nicolas Vargas</h1>
+          <h2 className="flex sm:text-3xl text-2xl pt-4 text-gray-800 font-bold">
             I'm a
             <TypeAnimation
               sequence={[
@@ -43,19 +30,6 @@ function Main() {
               repeat={Infinity}
             />
           </h2>
-          <div className="flex justify-between pt-6 max-w-[200px] w-full">
-            <FaTwitter className="cursor-pointer" size={20} />
-            <FaInstagram className="cursor-pointer" size={20} />
-            <FaLinkedinIn className="cursor-pointer" size={20} />
-            <FaGithubAlt className="cursor-pointer" size={20} />
-          </div>
-          <a
-            className="btn content-download button-main button-scheme"
-            href="Nicolas Vargas Talentify.pdf"
-            download="Nicolas Vargas Resume InceptionU.docx August 1st.pdf"
-          >
-            Download CV 
-          </a>
         </div>
       </div>
     </div>
